@@ -1,0 +1,8 @@
+# Modèle créé le : Sat Apr 30 22:00:07 CEST 2016 
+FILM (ID_Film, FILM_Titre, FILM_Duree, #ID_Genre) 
+NOTE (ID_Note, NOTE_Note) 
+USER (ID_User, USER_Pseudo, USER_Mail, USER_Password) 
+GENRE (ID_Genre, GENRE_Libelle) 
+EVALUER (ID_Note, ID_Film, ID_User, NOTE_Moyen) 
+A_VISIONNER (ID_User, ID_Film) 
+POSSEDER (ID_User, ID_Film) 
