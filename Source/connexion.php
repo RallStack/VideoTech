@@ -30,7 +30,7 @@
 				$ligne=mysqli_fetch_array($result);
 	
 				if ($ligne["USER_Pseudo"] == $Pseudo && $ligne["USER_Password"]) {
-					echo "<p> Valider </p>";	
+					header("location: ./index.php");	
 				}
 				else {
 					echo "<p>Pseudo ou Mot de passe invalide</p>";
